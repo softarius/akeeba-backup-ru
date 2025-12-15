@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="file" version="4.0" method="upgrade" client="site">
     <name>Akeeba backup - Russian language</name>
-    <author>Akeeba Ltd</author>
+    <author>Akeeba Ltd, Sergey Yushinin</author>
     <authorurl>https://www.akeeba.com</authorurl>
     <copyright>Copyright (C) 2010-2018 Akeeba Ltd. All rights reserved. Адаптация для более поздних версий - Softarius</copyright>
     <license>GNU GPL v3 or later</license>
