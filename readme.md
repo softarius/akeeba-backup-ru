@@ -1,1 +1,1 @@
-# Akeeba backup - Russian language
+# Akeeba Backup - Russian language
