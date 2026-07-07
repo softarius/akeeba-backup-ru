@@ -1,0 +1,11 @@
+# Название текущего проекта по имени файла
+#NAME=$(shell for /f %%f  in ('git rev-parse --show-toplevel') do @echo %%~nf)
+NAME=akeeba-backup-ru
+FOLDER=..\www
+VERSION=$(shell php getversion.php)
+
+all: manifest.xml backend frontend
+	7z.exe a -tzip -mcu $(NAME)_$(VERSION).zip manifest.xml backend frontend		
+
+
+
